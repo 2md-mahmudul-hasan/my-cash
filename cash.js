@@ -14,7 +14,7 @@ document.getElementById('deposit-btn').addEventListener('click', function(){
 
 
   // net balance
-  const netBalance = document.getElementById('net-balance')
+  const netBalance = document.getElementById('balance')
   const netBalanceInnerText = netBalance.innerText;
   const netBalanceAmount = parseFloat(netBalanceInnerText)
 
